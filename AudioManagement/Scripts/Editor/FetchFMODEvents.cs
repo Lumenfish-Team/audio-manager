@@ -107,7 +107,7 @@ namespace Lumenfish.AudioManagement.Editor
 
                 var eventItems = BuildUniqueIdentifiers(validEventPaths);
 
-                var outputDirectory = "Assets/Game/Domains/Audio/Generated";
+                var outputDirectory = "Assets/Game/Domains/AudioManagement/Generated";
                 Directory.CreateDirectory(outputDirectory);
                 var outputFilePath = Path.Combine(outputDirectory, "FmodEvents.g.cs");
 
