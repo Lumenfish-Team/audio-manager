@@ -112,7 +112,7 @@ namespace Lumenfish.AudioManagement.Editor
 
                     var busItems = BuildUniqueIdentifiers(validBusPaths);
 
-                    var outputDirectory = "Assets/Game/Domains/Audio/Generated";
+                    var outputDirectory = "Assets/Game/Domains/AudioManagement/Generated";
                     Directory.CreateDirectory(outputDirectory);
                     var outputFilePath = Path.Combine(outputDirectory, "FmodBuses.g.cs");
 
